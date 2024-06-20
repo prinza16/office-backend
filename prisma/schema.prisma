@@ -30,4 +30,5 @@ model Customers {
   address String @db.Text
   phone String
   taxid String
+  status String @default("use")
 }
