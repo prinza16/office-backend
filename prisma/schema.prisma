@@ -32,3 +32,13 @@ model Customers {
   taxid String
   status String @default("use")
 }
+model Cars {
+  id    Int     @id @default(autoincrement())
+  name    String
+  start_time DateTime
+  end_time  DateTime
+  location   String
+  car_number  String
+  status String @default("use")
+
+}
